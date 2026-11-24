@@ -1,6 +1,6 @@
 # Data sources and provenance
 
-The manuscript baseline is the R3.1 author-review finalization package dated 2026-11-24. The authoritative LaTeX source archive has SHA-256 `e78fa2d66ad3b8c94b8c49985ca28b59f4dfdca5041d291aa62ce80c1afd71a2`. It contains 75 members and 74 hashed source members.
+The recorded manuscript baseline is the R3.1 author-review finalization package dated 2026-11-24. The recorded LaTeX source archive SHA-256 is `e78fa2d66ad3b8c94b8c49985ca28b59f4dfdca5041d291aa62ce80c1afd71a2`. At the R2.2 check, the archive at the recorded location had SHA-256 `c8b3c720d4f3064dd6b8e73bc7800ed1b92e603fce01d3e6064a442d6a2efb8e`; eight recorded member hashes differed. The `main.tex` and `metadata.tex` member hashes matched the recorded inventory, including the manuscript title. The archive discrepancy remains unresolved.
 
 The R3.1 independent audit recorded 3,221 Gold binding checks, 7,825 Reader identity checks, 37,560 C archive rows, 2,620 normalized query entities in the eligible cohort, and 107 bounded tests. These counts are contextual audit records, not rerun results from this package.
 

@@ -1,10 +1,10 @@
 # CABES/CPCR Reproducibility Package
 
-**R2.1 local release candidate. Internal review only. Do not push or redistribute until ownership, author details, and licenses are confirmed.**
+**v0.1.0 preliminary research release preparation. Publication is pending completion of the copyright notice and explicit authorization for the current public remote.**
 
 This repository is a bounded package for the CABES/CPCR KAIS manuscript. It contains selected source modules, frozen derived outcomes, configurations, and provenance records.
 
-The package corresponds to the R3.1 author-review manuscript candidate dated 2026-11-24. Its source archive hash is recorded in `docs/data_and_provenance.md`. Author metadata and software attribution remain unconfirmed.
+The package corresponds to the R3.1 author-review manuscript candidate. The related manuscript is *Completeness-Prioritized Candidate Retention for Multi-Hop RAG with Fixed Evidence Pools*. Paper authors are Xingyun Chen and Shiyong Xiong, with Shiyong Xiong as corresponding author. The software author is Xingyun Chen. Their affiliation is Chongqing University of Posts and Telecommunications.
 
 The package has three reproduction levels.
 
@@ -20,6 +20,7 @@ Validation requires Python 3.10 or newer. Install the bounded tokenizer and stat
 
 ```powershell
 # Run from your checkout directory.
+python -m pip install -r environment/fixed-pool-requirements.txt -r environment/statistics-requirements.txt
 python -m unittest discover -s tests -v
 python scripts/recompute_level1.py
 python scripts/recompute_full_statistics.py
@@ -38,13 +39,15 @@ The repository does not contain model weights, private Reader jobs, private pred
 
 ## Validation status
 
-R14 statistics and synthetic Level 2 are verified within the scopes described in `docs/reproduction_levels.md`. Level 3 remains preflight. Complete H/C, external baseline and matched-budget replay remains open. Code, derived-results and figure rights and author/software attribution remain unconfirmed. No license is granted, and this candidate is not authorized for private upload or public release.
+R14 statistics and synthetic Level 2 are verified within the scopes described in `docs/reproduction_levels.md`. Level 3 remains preflight. Complete H/C, external baseline and matched-budget replay remains open. Historical execution identity limits are recorded in `docs/known_limitations.md`.
 
 ## Citation
 
-Use `CITATION.cff` together with the manuscript citation after the author and affiliation fields are confirmed. The repository currently grants no license.
+Use `CITATION.cff` for software and related manuscript citation metadata. No acceptance, publication date or DOI is asserted.
 
-Candidate author names recorded during R2 are Xingyun Chen and Shiyong Xiong, with Shiyong Xiong proposed as corresponding author. The names, order, affiliations, contact details, corresponding-author role and software attribution remain unconfirmed. `CITATION.cff` therefore leaves author fields unknown.
+## Rights and access
+
+The user has authorized MIT licensing for independently owned code and public distribution of sanitized derived results and figures. The copyright holder for the MIT notice still requires identification, so the repository `LICENSE` is pending. Data and figures do not automatically inherit the code license. Upstream datasets and model assets are excluded; acquisition details and conditions are recorded in `docs/restricted_assets.json` and `docs/third_party_and_licensing.md`.
 
 ## Complete offline R14 replay
 

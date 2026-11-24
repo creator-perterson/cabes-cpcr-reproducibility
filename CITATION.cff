@@ -1,12 +1,20 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript and this reproducibility package after author metadata and licensing are confirmed."
+message: "Please cite this software and the related manuscript when using this package."
 title: "CABES/CPCR Reproducibility Package"
-version: "R2.1 Local Release Candidate"
-date-released: 2026-11-24
+version: "0.1.0"
 repository-code: "https://github.com/creator-perterson/cabes-cpcr-reproducibility"
 type: software
 authors:
-  - family-names: "UNKNOWN"
-    given-names: "UNKNOWN"
-    affiliation: "UNKNOWN"
-abstract: "A local, non-authorized release candidate for bounded CABES/CPCR reproducibility checks, including frozen-result recomputation, synthetic fixed-candidate-pool tests, provenance records, and documented limitations."
+  - given-names: Xingyun
+    family-names: Chen
+    affiliation: Chongqing University of Posts and Telecommunications
+preferred-citation:
+  type: generic
+  title: "Completeness-Prioritized Candidate Retention for Multi-Hop RAG with Fixed Evidence Pools"
+  authors:
+    - given-names: Xingyun
+      family-names: Chen
+      affiliation: Chongqing University of Posts and Telecommunications
+    - given-names: Shiyong
+      family-names: Xiong
+      affiliation: Chongqing University of Posts and Telecommunications

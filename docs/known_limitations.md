@@ -12,4 +12,4 @@ The suggested `src/baselines`, `src/retrieval`, `src/reader` and `src/common` di
 
 Source conservation checks cover all 119 named R3.1 inventory entries and the selected algorithm files against their recorded hashes. A complete before/after hash snapshot of the entire original workspace was not captured. Original-workspace execution paths were read-only throughout R1 operations.
 
-Copyright ownership, distribution licenses and final author, software attribution, contact and affiliation metadata remain unresolved. `CITATION.cff` preserves unknown values pending confirmation. Candidate names and corresponding-author information are recorded in README for review. The local candidate is not authorized for private upload or public release.
+The user confirmed author names, affiliation, software attribution, authority to license independent code under MIT, and distribution rights for sanitized derived results and figures. The copyright holder for the MIT notice remains unidentified. The present remote is public and public push has not been authorized.
