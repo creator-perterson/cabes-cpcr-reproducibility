@@ -1,0 +1,48 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Build and local execution outputs
+build/
+dist/
+tmp/
+logs/
+results/local/
+
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+*_token*
+*credentials*
+*secret*
+
+# Model and dataset payloads
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.parquet
+*.arrow
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini

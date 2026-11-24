@@ -1,0 +1,39 @@
+{
+  "extraction": "Frozen means and absolute_difference values copied directly. No expected value calculated by the reproduction script.",
+  "means": {
+    "A00": {
+      "n": 1565,
+      "reader_f1": 0.2683786288259132,
+      "strict_complete": 0.21150159744408945
+    },
+    "A01": {
+      "n": 1565,
+      "reader_f1": 0.2762688397446902,
+      "strict_complete": 0.32971246006389776
+    },
+    "A10": {
+      "n": 1565,
+      "reader_f1": 0.28762490260892815,
+      "strict_complete": 0.273482428115016
+    },
+    "A11": {
+      "n": 1565,
+      "reader_f1": 0.29544987879793366,
+      "strict_complete": 0.35207667731629394
+    },
+    "SetR": {
+      "n": 1565,
+      "reader_f1": 0.33517848759438684,
+      "strict_complete": 0.31884984025559104
+    }
+  },
+  "paired_contrasts": {
+    "A11_minus_A00": {
+      "reader_f1": 0.027071249972020508,
+      "strict_complete": 0.14057507987220447
+    },
+    "n": 1565
+  },
+  "source_file": "R14_FINAL_STATISTICAL_ANALYSIS.json",
+  "source_sha256": "cee50027562ccf154e7221cc332531725d2d3aa2178dda61cc9bf6bfbab6f6b4"
+}

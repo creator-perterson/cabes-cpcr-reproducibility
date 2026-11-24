@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "asset": "SAFE-2Wiki validation Parquet",
+      "sha256": "d2a2cb3182eb0ba2e6fe0b212aece00a179136c255ec6d4e65d88782f1192dcf",
+      "status": "EXCLUDED",
+      "access": "Obtain from dataset publisher and confirm exact revision and applicable terms."
+    },
+    {
+      "asset": "Qwen/Qwen2.5-7B-Instruct and tokenizer",
+      "revision": "fe11104b620d588ccc049ff6631dd3ea002e3d98",
+      "status": "EXCLUDED",
+      "access": "Obtain from model publisher under its terms and verify individual file hashes."
+    },
+    {
+      "asset": "Frozen candidate pools, selections, Reader jobs and predictions",
+      "status": "EXCLUDED",
+      "access": "Request controlled access from project authors after rights review."
+    }
+  ],
+  "rights_status": "UNKNOWN; no distribution permission asserted"
+}

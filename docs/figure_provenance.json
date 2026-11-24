@@ -1,0 +1,56 @@
+{
+  "sources": {
+    "questions": {
+      "sha256": "324d0f481681ad5ea55361f130a16a4c7443a1c75dcf4b0f178d883cbcf0a0a5"
+    },
+    "chains": {
+      "sha256": "ed566007d27919cbce2809c08ae04d59dc2fb67051ab500dde045a7fcab73fae"
+    },
+    "pool_analysis": {
+      "sha256": "d9ac50b6c196b757efffe76bec43ded3dd2a30d9736f735188d37d0005422caa"
+    },
+    "r14": {
+      "sha256": "cee50027562ccf154e7221cc332531725d2d3aa2178dda61cc9bf6bfbab6f6b4"
+    },
+    "protocol": {
+      "sha256": "86c28eb26f074f5b50fffc8184bc9e95aedbee8b7e14c6369dcd07278b32d66d"
+    },
+    "rules": {
+      "sha256": "c081760dee918505c760091bdb44645044658891cfc9f2039fb68549fc815995"
+    },
+    "amendment": {
+      "sha256": "32b75ba0c404be15d0d6b23c3e9b38d92216da613ad78c8bcfa2bec1e12e0463"
+    }
+  },
+  "script_sha256": "b43f084623c6e1671b8af52ec5d733c7f902431e4902bf7072bb8d24a58aec29",
+  "python": "3.12.7",
+  "matplotlib": "3.11.0",
+  "outputs": [
+    "Fig1_study_workflow.pdf",
+    "Fig2_clean_factorial_method.pdf",
+    "Fig3_proxy_gold.pdf",
+    "Fig4_clean_factorial.pdf",
+    "Fig5_statistical_sensitivity.pdf",
+    "Fig6_question_type_heterogeneity.pdf"
+  ],
+  "pool_analysis_upstream_sources": {
+    "chains": {
+      "sha256": "ed566007d27919cbce2809c08ae04d59dc2fb67051ab500dde045a7fcab73fae"
+    },
+    "questions": {
+      "sha256": "324d0f481681ad5ea55361f130a16a4c7443a1c75dcf4b0f178d883cbcf0a0a5"
+    },
+    "annotations": {
+      "sha256": "0e072f961a57c1a68a98005b18527d2278703c181f6cfc95d2d5920cd323cd68"
+    },
+    "evidence": {
+      "sha256": "56ffa9149a8a2e2026c7f2a88ecd434bc5244a887603c3188ed4630b5211f4a2"
+    }
+  },
+  "notes": [
+    "All inputs read-only; no Reader execution.",
+    "Chain overlap counts are descriptive and dependent within questions.",
+    "Question type strata are exploratory, with no multiplicity adjustment.",
+    "R14 is an exposed cohort and cluster bootstrap relies on the recorded partition."
+  ]
+}

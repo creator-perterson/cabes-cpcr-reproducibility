@@ -1,0 +1,29 @@
+{
+  "version": "CABES-v0.1.2",
+  "scope": "EXPLORATORY_DEVELOPMENT_ONLY",
+  "context_budget": 256,
+  "beam_width": 6,
+  "max_depth": 4,
+  "max_path_atomic_edit_units": 4,
+  "max_transition_attempts": 2000,
+  "max_unique_state_proposals": 500,
+  "max_objective_evaluations": 500,
+  "max_total_atomic_edit_units": 500,
+  "sentence_cap": 32,
+  "anchor_cap": 16,
+  "replace_chain_remove_cap": 3,
+  "objective": {
+    "alpha": 1.0,
+    "beta": 0.4,
+    "gamma": 0.1,
+    "delta": 0.1
+  },
+  "gold_in_selection": false,
+  "tokenizer_policy": "frozen Qwen tokenizer.json; independent ExactBudget per arm",
+  "budget_sweep": [
+    64,
+    128,
+    192,
+    256
+  ]
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and this reproducibility package after author metadata and licensing are confirmed."
+title: "CABES/CPCR Reproducibility Package"
+version: "R2.1 Local Release Candidate"
+date-released: 2026-11-24
+repository-code: "https://github.com/creator-perterson/cabes-cpcr-reproducibility"
+type: software
+authors:
+  - family-names: "UNKNOWN"
+    given-names: "UNKNOWN"
+    affiliation: "UNKNOWN"
+abstract: "A local, non-authorized release candidate for bounded CABES/CPCR reproducibility checks, including frozen-result recomputation, synthetic fixed-candidate-pool tests, provenance records, and documented limitations."

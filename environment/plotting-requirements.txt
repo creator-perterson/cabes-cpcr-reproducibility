@@ -1,0 +1,2 @@
+# Version observed during figure regeneration from frozen results.
+matplotlib==3.11.0

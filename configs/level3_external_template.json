@@ -1,0 +1,10 @@
+{
+  "formal_run_enabled": false,
+  "search_root": null,
+  "reader_root": null,
+  "baseline_root": null,
+  "dataset_root": null,
+  "model_root": null,
+  "historical_authorization": "REQUIRED",
+  "notes": "This template is a preflight description. The R1 package does not execute a formal run."
+}

@@ -1,0 +1,2 @@
+# Core algorithm smoke tests use Python's standard library. Install the explicit
+# fixed-pool and statistics requirement files for the complete validation suite.

@@ -1,0 +1,16 @@
+{
+  "completeness_proxy": 1,
+  "formal_run_started": false,
+  "proxy": {
+    "available": true,
+    "covered_chains": 1,
+    "total_chains": 1
+  },
+  "proxy_available": true,
+  "selected_uids": [
+    "u1",
+    "u2"
+  ],
+  "status": "PASS",
+  "termination_reason": "MAX_DEPTH"
+}

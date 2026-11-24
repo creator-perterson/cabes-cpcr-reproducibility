@@ -1,0 +1,231 @@
+{
+  "schema": "scientific-source-provenance-v1",
+  "scope": "Selected source and derived files. Full local audit inventory is maintained separately.",
+  "entries": [
+    {
+      "source_artifact": "bridge_quality.py",
+      "source_sha256": "7a79c2db927fee4c16462d3e9d39283f023082b8f37b4a0da381e7a5e45512c6",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/bridge_quality.py",
+      "destination_sha256": "64772f279e77302cf470e3348b10e039d54319b0af7c0d2427bb1a6fc014b0af",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "chain_gain.py",
+      "source_sha256": "5b6e598fc6eb41ac71bcba191fcf95e4166951439fa44aee5f90a5db94cfbf05",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/chain_gain.py",
+      "destination_sha256": "cf085f4524644cda8cabb8bca5a8c9b6aa2c9403ab0f181410cba7482f01fd03",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "chain_relation_alignment.py",
+      "source_sha256": "7835ff349d925f4358ff30cab6afef36618ea670ba91f57a6cb89b6770abb275",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/chain_relation_alignment.py",
+      "destination_sha256": "5f5f421df0212e409a6697a284f679db6d620037ea5b0b8b15a392bbbc38db57",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "fair_budgeted_search.py",
+      "source_sha256": "b45f4794726f1816307696e6ee91f23df42942a06e26e3ac8018c6311c0a8d5b",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/fair_budgeted_search.py",
+      "destination_sha256": "f5fab5db64242b7db99d79dd86c53f4c858cc1e41e3f338420c46edf39fa9c50",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "query_constraint_parser.py",
+      "source_sha256": "c587d001c54f00c4162c9a384e3c5d741f61c80e2e34c9bf7ac5b27d5cd5ca71",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/query_constraint_parser.py",
+      "destination_sha256": "bb4c41b6090de1c4b0414d1f77cf22a639a04e5f4715f8ed4703350ad8fe84d9",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "query_relation_demand.py",
+      "source_sha256": "6ca2fecd4601f42af6f62923f43ad7316ef23609d5b33083b2d8ca88cbd72e94",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/query_relation_demand.py",
+      "destination_sha256": "069ee4a8fd526f36b4b9ab61c20339e7b0b3c9040ae640e4c06ff280b48f4197",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "score_chains_v0.py",
+      "source_sha256": "3cf89553497d2c136d5a9ddc08c8bbb9219fea12b6f45d186a963066f00d6807",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/score_chains_v0.py",
+      "destination_sha256": "9941793eaa76416412a33128f86432f4c16862f14a777c00963463c72e09032a",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "score_chains_v11.py",
+      "source_sha256": "6e16e887612c9d647bb4e247e33db276e2875acc267d3b1ed6e5127b81c3241b",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/score_chains_v11.py",
+      "destination_sha256": "69a7d5be9e4bd4cf34d8ccf685d7964b23421d9f4ee3a1bf7be9c9b4b5f9e1a0",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "score_chains_v12.py",
+      "source_sha256": "ba5b9a54b8c3f8c179487885eb7ed42b22896a78f7d832781f3b5721234c25b0",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/score_chains_v12.py",
+      "destination_sha256": "65121867e0f77662ec17c054d3018d551f025f0577dded7b0558fc289bb85f57",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "target_relation_alignment.py",
+      "source_sha256": "9b688d5d6d1eed56a6be962200d73ef85e3b915a96534cb30be1ad9ec17b3eb3",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/target_relation_alignment.py",
+      "destination_sha256": "c8811787f0bdfceb0ee1498190c8ae631d2756712d66100908ff189d4226ac6f",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "extract_query_anchors.py",
+      "source_sha256": "e4cb8ad864be5829c7938ecafbaf817d9fa18168f95c9044857f7cda89813f22",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/extract_query_anchors.py",
+      "destination_sha256": "4c8a2e36cdd13b69e7c488af22454626b9ded473ab3f83679841ee09f1959369",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "extract_evidence_relations.py",
+      "source_sha256": "1ad2b9b8a9b0bdfc279d1073f11d70498f0487cc8c19faa6f54ad1b295cf683c",
+      "source_version": "CABES frozen base snapshot",
+      "destination": "src/cabes/base/extract_evidence_relations.py",
+      "destination_sha256": "528fe651f42308d31c2981faf3c218c7445a91469cfebcf9ee88a05345d5b07c",
+      "transformation": "imports converted to package-relative form",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "block_search.py",
+      "source_sha256": "abb7d77ecc5dd0e853c9e0052cb4257acf0a14195275a259e72ab4ef81195ad4",
+      "source_version": "CABES BlockSearch frozen source",
+      "destination": "src/cabes/block_search.py",
+      "destination_sha256": "16d3c06cff16aeba331bc6fb46bb29ee066ca2a48346aa2f094a3ff1528ddc43",
+      "transformation": "absolute base_snapshot path removed and imports namespaced",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "cpcr_search.py",
+      "source_sha256": "bcbccc7e2aadcd65b514366643a8b9c1ee67a6b38deb13fe99ca1643bf0e270d",
+      "source_version": "CPCR P3 wrapper",
+      "destination": "src/cpcr/search.py",
+      "destination_sha256": "84b0e1482a5894de305d030c8f496db9ba11f16a5bd603caec43781c829c465e",
+      "transformation": "historical path injection removed and imports namespaced",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "cpcr_proxy.py",
+      "source_sha256": "a37f128d586ef2123d5e48ab69554076cc443c6c95c796ee71ac4f787abd63bc",
+      "source_version": "CPCR structural proxy",
+      "destination": "src/cpcr/proxy.py",
+      "destination_sha256": "a37f128d586ef2123d5e48ab69554076cc443c6c95c796ee71ac4f787abd63bc",
+      "transformation": "file renamed to package module",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "state_selection.py",
+      "source_sha256": "3ba11ba15a5198198c27011566ea62b3a73ee8d0938cb61f065a51d613e779ee",
+      "source_version": "CPCR selection keys",
+      "destination": "src/cpcr/state_selection.py",
+      "destination_sha256": "3ba11ba15a5198198c27011566ea62b3a73ee8d0938cb61f065a51d613e779ee",
+      "transformation": "file copied into CPCR namespace",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "H48_SAVED_CONTRASTS.csv",
+      "source_sha256": "da646ccfa3e6b7b5bc6752c7df575faf8822947bf1c7d8a978f4272f82a00781",
+      "source_version": "R3.1 H48",
+      "destination": "results/level1/H48_SAVED_CONTRASTS.csv",
+      "destination_sha256": "da646ccfa3e6b7b5bc6752c7df575faf8822947bf1c7d8a978f4272f82a00781",
+      "transformation": "copied compact saved contrast table",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "R14_REVIEW_PER_QUESTION_METRICS.json",
+      "source_sha256": "0de82c04ec0c5eae649172cff04c8e2f261a18ef99f70dbdede068d3e2069b72",
+      "source_version": "R14 sanitized derivative",
+      "destination": "results/level1/r14_per_question_metrics_sanitized.json",
+      "destination_sha256": "20e482425169fa48924009a4b5da5abecb315decdf2de7445baacb8f3739af63",
+      "transformation": "removed linkable question and cluster hashes and replaced them with local integer indices",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "clean_factorial.py",
+      "source_sha256": "c081760dee918505c760091bdb44645044658891cfc9f2039fb68549fc815995",
+      "source_version": "R14 clean factorial",
+      "destination": "src/cpcr/clean_factorial.py",
+      "destination_sha256": "c081760dee918505c760091bdb44645044658891cfc9f2039fb68549fc815995",
+      "transformation": "copied byte-for-byte as the R14 Clean A selection rule",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "run_clean_factorial.py",
+      "source_sha256": "f3c5d3cb6d8758be506d3546d4ce201b0f318d138e01eaa37540c83297933890",
+      "source_version": "R14 or R3.1 finalization as named",
+      "destination": "src/cpcr/factorial_search.py",
+      "destination_sha256": "8f0de843dabf1d8df483487966c87d826f59c9b59f792b1dc7d24b01f49d29bd",
+      "transformation": "Extract FactorialSearch and run_one with identical AST and package imports",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "evaluate_r14.py",
+      "source_sha256": "9659782c24a1d4306eb9e7e62fc46d02ed3bd13cad9b01379179da22c34d04d7",
+      "source_version": "R14 or R3.1 finalization as named",
+      "destination": "src/evaluation/r14_statistics.py",
+      "destination_sha256": "0efa431c0dd6de7f25c0e3cd21e627e1ead08256539b43bc820b66623a74f1b0",
+      "transformation": "Extract AST-identical statistics function and constants",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "R14_FINAL_STATISTICAL_ANALYSIS.json",
+      "source_sha256": "cee50027562ccf154e7221cc332531725d2d3aa2178dda61cc9bf6bfbab6f6b4",
+      "source_version": "R14 or R3.1 finalization as named",
+      "destination": "results/level1/expected_full_statistics.json",
+      "destination_sha256": "ff018297976da02bc083fec5dc6a07fffa0f4b40d81d93eb5f6fe5cfba187bbb",
+      "transformation": "Copy entire official statistics except selector generation diagnostics",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "R14_FINAL_STATISTICAL_ANALYSIS.json",
+      "source_sha256": "cee50027562ccf154e7221cc332531725d2d3aa2178dda61cc9bf6bfbab6f6b4",
+      "source_version": "R14 or R3.1 finalization as named",
+      "destination": "results/level1/expected_summary.json",
+      "destination_sha256": "730f54bb5fe51707136d9922eb2a02635a6c628c503c450f525e41494ed5af1c",
+      "transformation": "Extract official means and A11-A00 point estimates",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "cabes_v012.yaml",
+      "source_sha256": "f28379313e63592134688c2c38bd9d1c6a2b91b90d0f22c9b9b2ec323317b2e5",
+      "source_version": "R14 or R3.1 finalization as named",
+      "destination": "configs/r14_search.json",
+      "destination_sha256": "3cf2108cb5a47df814a29f169b3b184dd08aa46ae2e6ba9367b89ad20a56f34e",
+      "transformation": "YAML to JSON conversion preserving keys and values",
+      "rights_status": "UNCONFIRMED"
+    },
+    {
+      "source_artifact": "KAIS_R3_1_LATEX_SOURCE.zip",
+      "source_sha256": "e78fa2d66ad3b8c94b8c49985ca28b59f4dfdca5041d291aa62ce80c1afd71a2",
+      "source_version": "R14 or R3.1 finalization as named",
+      "destination": "docs/manuscript_source_manifest.json",
+      "destination_sha256": "185e48dce83d3b8991f7a8db7431cc9263110e609d6744880cd0c269d5ad91df",
+      "transformation": "Per-member hashes only",
+      "rights_status": "UNCONFIRMED"
+    }
+  ]
+}

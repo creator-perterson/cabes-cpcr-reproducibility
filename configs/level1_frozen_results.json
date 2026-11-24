@@ -1,0 +1,19 @@
+{
+  "status": "SANITIZED_DERIVED_METRICS",
+  "source_experiment": "R14_KAIS_EVIDENCE_STRENGTHENING_LONGRUN",
+  "question_count": 1565,
+  "methods": ["A00", "A01", "A10", "A11", "SetR"],
+  "strict_denominator": 1565,
+  "reader_f1_denominator": 1565,
+  "bootstrap": {
+    "draws": 10000,
+    "engine": "PCG64",
+    "seed": 20261122,
+    "scope": "historical R14 exploratory paired analysis"
+  },
+  "sensitivity": {
+    "clusters": 218,
+    "largest_cluster_questions": 1248,
+    "interpretation": "diagnostic only"
+  }
+}
