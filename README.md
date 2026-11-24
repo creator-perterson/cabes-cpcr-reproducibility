@@ -1,10 +1,10 @@
 # CABES/CPCR Reproducibility Package
 
-**v0.1.0 preliminary research release preparation. Publication is pending completion of the copyright notice and explicit authorization for the current public remote.**
+**v0.1.0 preliminary research release.**
 
 This repository is a bounded package for the CABES/CPCR KAIS manuscript. It contains selected source modules, frozen derived outcomes, configurations, and provenance records.
 
-The package corresponds to the R3.1 author-review manuscript candidate. The related manuscript is *Completeness-Prioritized Candidate Retention for Multi-Hop RAG with Fixed Evidence Pools*. Paper authors are Xingyun Chen and Shiyong Xiong, with Shiyong Xiong as corresponding author. The software author is Xingyun Chen. Their affiliation is Chongqing University of Posts and Telecommunications.
+The package corresponds to the manuscript source identified in `docs/manuscript_source_manifest.json` by its author-specified abstract. The related manuscript is *Completeness-Prioritized Candidate Retention for Multi-Hop RAG with Fixed Evidence Pools*. Paper authors are Xingyun Chen and Shiyong Xiong, with Shiyong Xiong as corresponding author. The software author is Xingyun Chen. Their affiliation is Chongqing University of Posts and Telecommunications.
 
 The package has three reproduction levels.
 
@@ -47,7 +47,7 @@ Use `CITATION.cff` for software and related manuscript citation metadata. No acc
 
 ## Rights and access
 
-The user has authorized MIT licensing for independently owned code and public distribution of sanitized derived results and figures. The copyright holder for the MIT notice still requires identification, so the repository `LICENSE` is pending. Data and figures do not automatically inherit the code license. Upstream datasets and model assets are excluded; acquisition details and conditions are recorded in `docs/restricted_assets.json` and `docs/third_party_and_licensing.md`.
+Independently owned code is licensed under the MIT License in `LICENSE`, copyright 2026 Xingyun Chen. The user has confirmed public distribution rights for sanitized derived results and figures. Data, figures and model assets do not automatically inherit the code license. Upstream datasets and model assets are excluded; acquisition details and conditions are recorded in `docs/restricted_assets.json` and `docs/third_party_and_licensing.md`.
 
 ## Complete offline R14 replay
 

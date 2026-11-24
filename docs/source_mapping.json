@@ -219,12 +219,12 @@
       "rights_status": "UNCONFIRMED"
     },
     {
-      "source_artifact": "KAIS_R3_1_LATEX_SOURCE.zip",
-      "source_sha256": "e78fa2d66ad3b8c94b8c49985ca28b59f4dfdca5041d291aa62ce80c1afd71a2",
-      "source_version": "R14 or R3.1 finalization as named",
+      "source_artifact": "KAIS_DEFENSIVE_WRITING_REVISION_2/KAIS_R3_1_LATEX_SOURCE.zip",
+      "source_sha256": "cc87e590f3cc89bddabbfdf81d3866964974e2f2bac04ba0620e24d166518400",
+      "source_version": "KAIS_DEFENSIVE_WRITING_REVISION_2 (author-specified abstract)",
       "destination": "docs/manuscript_source_manifest.json",
-      "destination_sha256": "185e48dce83d3b8991f7a8db7431cc9263110e609d6744880cd0c269d5ad91df",
-      "transformation": "Per-member hashes only",
+      "destination_sha256": "532cbdf8313120af4cfafce3c8eaa6308e0f39a1dfbdd69e347abcbc20efb7b6",
+      "transformation": "per-member hashes only; previous R2 frozen baseline retained in manifest",
       "rights_status": "UNCONFIRMED"
     }
   ]

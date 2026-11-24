@@ -4,6 +4,7 @@ title: "CABES/CPCR Reproducibility Package"
 version: "0.1.0"
 repository-code: "https://github.com/creator-perterson/cabes-cpcr-reproducibility"
 type: software
+license: MIT
 authors:
   - given-names: Xingyun
     family-names: Chen
