@@ -4,7 +4,7 @@
 
 This repository is a bounded package for the CABES/CPCR KAIS manuscript. It contains selected source modules, frozen derived outcomes, configurations, and provenance records.
 
-The package corresponds to the manuscript source identified in `docs/manuscript_source_manifest.json` by its author-specified abstract. The related manuscript is *Completeness-Prioritized Candidate Retention for Multi-Hop RAG with Fixed Evidence Pools*. Paper authors are Xingyun Chen and Shiyong Xiong, with Shiyong Xiong as corresponding author. The software author is Xingyun Chen. Their affiliation is Chongqing University of Posts and Telecommunications.
+The related manuscript, *Completeness-Prioritized Candidate Retention for Multi-Hop RAG with Fixed Evidence Pools*, has an author-approved R4.1 text closeout dated 2026-11-28. A hash-only inventory of its 75-file LaTeX source archive is in `docs/manuscript_source_manifest_R4_1.json`. The inventory does not include the manuscript, ESM or submission materials. The earlier source inventory remains in `docs/manuscript_source_manifest.json`. The package's executable code and results remain scoped to the R14 reproduction levels described below. R2 MuSiQue adapters and full R2 experiment assets are not included.
 
 The package has three reproduction levels.
 
